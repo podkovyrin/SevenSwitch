@@ -53,6 +53,8 @@ class ViewController: UIViewController {
         mySwitch3.onTintColor =  UIColor(red: 0.45, green: 0.58, blue: 0.67, alpha: 1)
         mySwitch3.borderColor = UIColor.clearColor()
         mySwitch3.shadowColor = UIColor.blackColor()
+        mySwitch3.offThumbImage = UIImage(named: "cross.png")
+        mySwitch3.onThumbImage = UIImage(named: "check.png")
     }
     
     func switchChanged(sender: SevenSwitch) {
